@@ -9,7 +9,7 @@
 import Foundation
 import SpriteKit
 
-class Hero : SKSpriteNode {
+class JBHero : SKSpriteNode {
     
     var body : SKSpriteNode!
     
@@ -20,7 +20,7 @@ class Hero : SKSpriteNode {
     }
     
     func loadAppearance(){
-        body = SKSpriteNode(color: UIColor.brown, size: CGSize(width: self.frame.size.width, height: self.frame.size.height))
+        body = SKSpriteNode(color: UIColor.blue, size: CGSize(width: self.frame.size.width, height: self.frame.size.height))
         addChild(body)
     }
     

@@ -14,7 +14,8 @@
 		A267703A21208F7900FC0605 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A267703821208F7900FC0605 /* Main.storyboard */; };
 		A267703C21208F7A00FC0605 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A267703B21208F7A00FC0605 /* Assets.xcassets */; };
 		A267703F21208F7A00FC0605 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A267703D21208F7A00FC0605 /* LaunchScreen.storyboard */; };
-		A2BEA9F72121191A000AAA72 /* Hero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEA9F62121191A000AAA72 /* Hero.swift */; };
+		A2BEA9F72121191A000AAA72 /* JBHero.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEA9F62121191A000AAA72 /* JBHero.swift */; };
+		A2BEA9F92121299B000AAA72 /* JBMovingGround.swift in Sources */ = {isa = PBXBuildFile; fileRef = A2BEA9F82121299B000AAA72 /* JBMovingGround.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,7 +28,8 @@
 		A267703B21208F7A00FC0605 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A267703E21208F7A00FC0605 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A267704021208F7A00FC0605 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A2BEA9F62121191A000AAA72 /* Hero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Hero.swift; sourceTree = "<group>"; };
+		A2BEA9F62121191A000AAA72 /* JBHero.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBHero.swift; sourceTree = "<group>"; };
+		A2BEA9F82121299B000AAA72 /* JBMovingGround.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JBMovingGround.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,7 +65,8 @@
 				A267702E21208F7900FC0605 /* AppDelegate.swift */,
 				A267703021208F7900FC0605 /* GameScene.sks */,
 				A267703421208F7900FC0605 /* GameScene.swift */,
-				A2BEA9F62121191A000AAA72 /* Hero.swift */,
+				A2BEA9F62121191A000AAA72 /* JBHero.swift */,
+				A2BEA9F82121299B000AAA72 /* JBMovingGround.swift */,
 				A267703621208F7900FC0605 /* GameViewController.swift */,
 				A267703821208F7900FC0605 /* Main.storyboard */,
 				A267703B21208F7A00FC0605 /* Assets.xcassets */,
@@ -147,8 +150,9 @@
 			files = (
 				A267703521208F7900FC0605 /* GameScene.swift in Sources */,
 				A267703721208F7900FC0605 /* GameViewController.swift in Sources */,
+				A2BEA9F92121299B000AAA72 /* JBMovingGround.swift in Sources */,
 				A267702F21208F7900FC0605 /* AppDelegate.swift in Sources */,
-				A2BEA9F72121191A000AAA72 /* Hero.swift in Sources */,
+				A2BEA9F72121191A000AAA72 /* JBHero.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
