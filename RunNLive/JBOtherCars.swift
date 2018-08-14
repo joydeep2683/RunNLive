@@ -12,7 +12,6 @@ import SpriteKit
 class JBOtherCars: SKSpriteNode {
     let CAR_DIMENSION : CGFloat = 100.0
     let CAR_COLOUR = UIColor.red
-    let carCategory : UInt32 = 0x1 << 1
     
     init() {
         let size = CGSize(width: CAR_DIMENSION, height: CAR_DIMENSION)

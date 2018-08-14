@@ -17,6 +17,7 @@ class JBHero : SKSpriteNode {
         let size = CGSize(width: 100.0, height: 100.0)
         super.init(texture: nil, color: UIColor.clear, size : size)
         loadAppearance()
+        loadPhysicsBodyWithSize(size: size)
     }
     
     func loadAppearance(){
@@ -26,5 +27,12 @@ class JBHero : SKSpriteNode {
     
     required init?(coder aDecoder: NSCoder) {
         fatalError("init(coder:) has not been implemented")
+    }
+    
+    func loadPhysicsBodyWithSize(size : CGSize){
+        physicsBody = SKPhysicsBody(rectangleOf: size)
+        physicsBody?.categoryBitMask = heroCategory
+        physicsBody?.contactTestBitMask = carCategory
+        physicsBody?.affectedByGravity = false
     }
 }

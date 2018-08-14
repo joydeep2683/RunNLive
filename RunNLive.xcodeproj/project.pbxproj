@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A203FCFF21229F9D0060D581 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = A203FCFE21229F9D0060D581 /* Constants.swift */; };
 		A267702F21208F7900FC0605 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A267702E21208F7900FC0605 /* AppDelegate.swift */; };
 		A267703121208F7900FC0605 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = A267703021208F7900FC0605 /* GameScene.sks */; };
 		A267703521208F7900FC0605 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = A267703421208F7900FC0605 /* GameScene.swift */; };
@@ -20,6 +21,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A203FCFE21229F9D0060D581 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
 		A267702B21208F7900FC0605 /* RunNLive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RunNLive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A267702E21208F7900FC0605 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A267703021208F7900FC0605 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
@@ -71,6 +73,7 @@
 				A2BEA9F82121299B000AAA72 /* JBMovingGround.swift */,
 				A2BEA9FA21226ED2000AAA72 /* JBOtherCars.swift */,
 				A267703621208F7900FC0605 /* GameViewController.swift */,
+				A203FCFE21229F9D0060D581 /* Constants.swift */,
 				A267703821208F7900FC0605 /* Main.storyboard */,
 				A267703B21208F7A00FC0605 /* Assets.xcassets */,
 				A267703D21208F7A00FC0605 /* LaunchScreen.storyboard */,
@@ -155,6 +158,7 @@
 				A2BEA9FB21226ED2000AAA72 /* JBOtherCars.swift in Sources */,
 				A267703721208F7900FC0605 /* GameViewController.swift in Sources */,
 				A2BEA9F92121299B000AAA72 /* JBMovingGround.swift in Sources */,
+				A203FCFF21229F9D0060D581 /* Constants.swift in Sources */,
 				A267702F21208F7900FC0605 /* AppDelegate.swift in Sources */,
 				A2BEA9F72121191A000AAA72 /* JBHero.swift in Sources */,
 			);
