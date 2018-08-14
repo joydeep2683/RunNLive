@@ -20,10 +20,11 @@ class GameScene: SKScene {
         // Get label node from scene and store it for use later
         self.backgroundColor = SKColor.green
         addHero()
-        movingGround = JBMovingGround(size: CGSize(width: (view.frame.size.width*2/3)-10, height: view.frame.size.height))
+        movingGround = JBMovingGround(size: CGSize(width: (view.frame.size.width*2/3)-10, height: view.frame.size.height * 2))
         movingGround.position = CGPoint(x: 0.0, y: -view.frame.size.height)
         movingGround.zPosition = -1
         addChild(movingGround)
+        movingGround.start()
         
     }
     
@@ -36,5 +37,6 @@ class GameScene: SKScene {
         hero = JBHero()
         hero.position = CGPoint(x: 0.0, y: -self.frame.size.height/2 + hero.frame.size.height/2 + 20)
         addChild(hero)
+
     }
 }
