@@ -9,11 +9,12 @@
 import SpriteKit
 import GameplayKit
 
-class GameScene: SKScene {
+class GameScene: SKScene, SKPhysicsContactDelegate {
     
     private var label : SKLabelNode?
     var hero : JBHero!
     var movingGround : JBMovingGround!
+    var cars : JBOtherCars!
     
     override func didMove(to view: SKView) {
         
@@ -25,6 +26,8 @@ class GameScene: SKScene {
         movingGround.zPosition = -1
         addChild(movingGround)
         movingGround.start()
+        addCars()
+        addPhysicsWorld()
         
     }
     
@@ -38,5 +41,14 @@ class GameScene: SKScene {
         hero.position = CGPoint(x: 0.0, y: -self.frame.size.height/2 + hero.frame.size.height/2 + 20)
         addChild(hero)
 
+    }
+    func addCars(){
+        cars = JBOtherCars()
+        cars.position = CGPoint(x: 0.0, y: self.frame.size.height/2 - cars.frame.size.height/2 - 20)
+        addChild(cars)
+    }
+    func addPhysicsWorld(){
+        // Add physics world
+        physicsWorld.contactDelegate = self
     }
 }
